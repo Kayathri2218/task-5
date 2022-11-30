@@ -1,0 +1,29 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	margin: auto;
+}
+.trans{
+	background-color: #77c7bf;
+	margin-top: 10px;
+}
+.trans-col{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 12px;	
+}
+img{
+    filter: grayscale(100%);
+	max-width: 50%;
+}
+img:hover{
+	filter: none;
+	transform: scale(1,1);
+	transition: all 1s ease;
+	
+}
